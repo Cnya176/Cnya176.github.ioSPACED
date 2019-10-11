@@ -1,3 +1,24 @@
+header {
+	background-image: url(images/top-back1.jpg); 
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	margin-top: 0px;
+}
 body {
-	background-color: red;
+	margin: 0px;
+}
+.name {
+	border: none;
+	background: none;
+	margin: 0px;
+	position: absolute;
+	margin-left: 16%;
+	margin-top: 1%;
+	color: white;
+	font-size: 2em;
+	font-family: 'anton';
+}
+.name:hover {
+	text-shadow:0 0 20px #00CCFF;
 }
