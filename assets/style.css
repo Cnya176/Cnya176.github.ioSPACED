@@ -1,3 +1,5 @@
+::-webkit-scrollbar { width: 0;}
+
 header {
 	background-image: url(images/top-back1.jpg); 
 	width: 100%;
@@ -25,18 +27,24 @@ button {
 }
 .headermenu > button:nth-child(1){
 	grid-column: 6;
+	-webkit-transition: all 0.2s ease-in-out;
 }
 .headermenu > button:nth-child(2){
 	grid-column: 7;
+	-webkit-transition: all 0.2s ease-in-out;
 }
 .headermenu > button:nth-child(3){
 	grid-column: 8;
+	-webkit-transition: all 0.2s ease-in-out;`
 }
 .headermenu > button:nth-child(4){
 	grid-column: 9;
+	-webkit-transition: all 0.2s ease-in-out;
+	border: 1px dashed white;
 }
 button:hover {
 	color: #00CCFF;
+	-webkit-transform: scale(1.2,1.2);
 }
 .name {
 	border: none;
@@ -49,9 +57,11 @@ button:hover {
 	font-size: 2em;
 	font-family: 'anton';
 	text-align: center;
+	transition: all 0.3s ease-in-out;
 }
 .name:hover {
-	text-shadow:0 0 20px #00CCFF;
+	color: #00CCFF;
+	transform: scale(1.2,1.2);
 }
 .BigCentre {
 	text-align: center;
@@ -79,4 +89,235 @@ button:hover {
 	text-align: center;
 	font-size: 1em;
 	font-family: "anton", cursive;
+}
+.table {
+	background-color: black;
+	height: 5%;
+	padding-top: 12%;
+	display: grid;
+	grid-template-columns: repeat(22, 1fr);
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+}
+/*.table > div:nth-child(1) {
+	padding-top: 1vh;
+	grid-column: 3;
+	width: 200%;
+	border: 1px solid #d3cdcd;
+}
+.table > div:nth-child(2) {
+	grid-column: 6;
+	width: 200%;
+	border: 1px solid #d3cdcd;
+}
+.table > select:nth-child(1) {
+	background: none;
+	color: white;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	grid-column: 5;
+	border: 1px solid #d3cdcd;
+}
+.table > select:nth-child(2) {
+	background: none;
+	color: white;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	grid-column: 7;
+	border: 1px solid #d3cdcd;
+}*/
+.TNES {
+	background-image: url(images/TNES.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-left: 5vw;
+	width: 40%;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+}
+.TNES div:nth-child(1) {
+	padding-top: 40%;
+	padding-left: 10px;
+	text-align: left;
+	color: white;
+	font-family: 'anton';
+}
+.TNES div:nth-child(2) {
+	padding-left: 10px;
+	text-align: left;
+	color: #919296;
+	font-family: 'anton';
+}
+.TNES:hover {
+	transform: scale(1.1,1.1);
+}
+.TDP {
+	background-image: url(images/vulkan.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-left: 10vw;
+	width: 40%;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+}
+.TDP div:nth-child(1) {
+	padding-top: 40%;
+	padding-left: 10px;
+	text-align: left;
+	color: white;
+	font-family: 'anton';
+}
+.TDP div:nth-child(2) {
+	padding-left: 10px;
+	text-align: left;
+	color: #919296;
+	font-family: 'anton';
+}
+.TDP:hover {
+	transform: scale(1.1,1.1);
+}
+.skaf {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	display: inline-flex;
+}
+.skafR {
+	text-align: left;
+	font-family: 'anton';
+	padding-left: 5vw;
+	padding-top: 15vh;
+}
+.skafR div:nth-child(1) {
+	color: #ffe2bd;
+	font-size: 1em;
+}
+.skafR div:nth-child(2) {
+	color: white;
+	font-size: 5em;
+}
+.skafR div:nth-child(3) {
+	color: #919296;
+	font-size: 1em;
+}
+.logos {
+
+}
+.logos div:nth-child(1) {
+	padding-left: 1vw;
+}
+.logos div:nth-child(2) {
+	padding-left: 1vw;
+}
+.logos div:nth-child(3) {
+	padding-left: 1vw;
+}
+.NASA {
+	width: 100px;
+	height: 70px;
+	border: 1px dashed #919296;
+	transition: all 0.3s ease-in-out;
+}
+.NASA:hover {
+	transform: scale(1.2,1.2);
+}
+.Nike {
+	width: 100px;
+	height: 70px;
+	border: 1px dashed #919296;
+	transition: all 0.3s ease-in-out;
+}
+.Nike:hover {
+	transform: scale(1.2,1.2);
+}
+.SpaceX {
+	width: 100px;
+	height: 70px;
+	border: 1px dashed #919296;
+	transition: all 0.3s ease-in-out;
+}
+.SpaceX:hover {
+	transform: scale(1.2,1.2);
+}
+footer {
+	background: black;
+}
+.startFooter1 {
+	text-align: center;
+	background: none;
+	color: white;
+	font-size: 3em;
+	font-family: 'anton', cursive;
+}
+.startFooter2 {
+	text-align: center;
+	background: none;
+	color: #d3cdcd;
+	font-size: 1em;
+	font-family: 'anton', cursive;
+}
+
+.startFooter1:hover {
+
+}
+.startFooter2:hover {
+
+}
+.MOON {
+	background-image: url(images/MOON.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 50vh;
+}
+.scroll-arrow {
+    position: absolute;
+    top: 92%;
+    width: 30px;
+    height: 30px;
+    left: calc(50% - 15px);
+    animation: arrow 2s infinite;
+    margin-top: 40px;
+    top: 85%;
+}
+.scroll-arrow img {
+    width: 30px;
+    height: 30px;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    -webkit-transform: translate(0, 2px);
+    -moz-transform: translate(0, 2px);
+    -ms-transform: translate(0, 2px);
+    -o-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+  }
+  75%,
+  100% {
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
 }
