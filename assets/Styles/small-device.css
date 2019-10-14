@@ -108,4 +108,16 @@
 	width: 80vw;
 	padding-left: 10vw;
 }
+.startFooter1 {
+	font-size: 1.7em;
+}
+.startFooter2 {
+	font-size: 0.7em;
+}
+.statistic1 {
+	display: block;
+}
+.logos {
+	display: block;
+}
 }

@@ -219,8 +219,16 @@ button:hover {
 	color: #919296;
 	font-size: 1em;
 }
+.statistic1 {
+	display: inline-flex;
+	background: none;	
+	padding-top: 5vh;
+	flex-wrap: wrap;
+}
 .logos {
-
+	display: inline-flex;
+	padding-top: 1vh;
+	flex-wrap: wrap;
 }
 .logos div:nth-child(1) {
 	padding-left: 1vw;
