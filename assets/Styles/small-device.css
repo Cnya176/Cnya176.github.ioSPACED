@@ -1,0 +1,78 @@
+@media only screen and (orientation: portrait) and  (max-device-width: 768px) {
+.name {
+	border: none;
+	background: none;
+	margin: 0;
+	position: absolute;
+	margin-left: 10%;
+	padding-top: 2%;
+	color: white;
+	font-size: 2em;
+	font-family: 'anton';
+	text-align: center;
+}
+.nameDesktop {
+	display: none;
+}
+.headermenu {
+	display: none;
+}
+.nameMobile {
+	text-align: center;
+	padding-top: 1vh;
+	color: white;
+	font-family: 'anton';
+	font-size: 2em;
+}
+.burger-menu {
+
+	display: inline-flex;
+	flex-direction: row-reverse; 
+	background-color: black;
+	width: 100vw;
+}
+.section {
+	padding: 5px;
+	font-family: sans-serif;
+	margin: 0;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.menu-btn {
+	width: 50px;
+	height: 50px;
+	display: block;
+	border: 1px solid white;
+	border-radius: 50%;
+	background-color: black;
+}
+.BigCentre {
+	text-align: center;
+	padding-top: 30vh;
+	color: #ffe2bd;
+	font-family: 'Fredoka One', cursive;
+}
+.BigCentre2 {
+	text-align: center;
+	color: white;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 5em;
+}
+.BigCentre2:hover {
+	color: #00CCFF;
+}
+.BigCentre3 {
+	color: #d3cdcd;
+	text-align: center;
+	font-size: 1em;
+	font-family: "anton", cursive;
+}
+.BigCentre4 {
+	color: #d3cdcd;
+	text-align: center;
+	font-size: 1em;
+	font-family: "anton", cursive;
+}
+.TNES_TDP {
+}
+}
