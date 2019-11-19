@@ -266,6 +266,19 @@ button:hover {
 .SpaceX:hover {
 	transform: scale(1.2,1.2);
 }
+.MKS {
+	background-color: black;
+	width: 100vw;
+	display: flex;
+	-webkit-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+.MKSimg {
+
+}
+.MKStext {
+	
+}
 footer {
 	background: black;
 }
